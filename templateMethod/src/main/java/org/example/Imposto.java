@@ -3,7 +3,6 @@ package org.example;
 public abstract class Imposto {
     private float arrecadacao1;
     private float arrecadacao2;
-//    private float aliquota;
 
     public float getArrecadacao1() {
         return arrecadacao1;
@@ -20,14 +19,6 @@ public abstract class Imposto {
     public void setArrecadacao2(float arrecadacao2) {
         this.arrecadacao2 = arrecadacao2;
     }
-
-//    public float getAliquota() {
-//        return aliquota;
-//    }
-//
-//    public void setAliquota(float aliquota) {
-//        this.aliquota = aliquota;
-//    }
 
     public float calculaArrecadamentoTotal() {
         return this.arrecadacao1 + this.arrecadacao2;
